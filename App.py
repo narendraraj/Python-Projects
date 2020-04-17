@@ -1,3 +1,7 @@
-birth_year = input (' Birth year: ')
-age = 2020 - int(birth_year)
-print(age)
+numbers = [105, 2,  5,  10,  12,  45,  85,  65,  102]
+max = numbers[0]
+for number in numbers:
+    if number > max:
+        max = number
+print(max)
+
